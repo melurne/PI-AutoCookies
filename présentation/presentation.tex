@@ -1,0 +1,72 @@
+\documentclass{beamer}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{listings}
+
+\lstdefinestyle{mystyle}{   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\small,                    
+	keepspaces=true,                                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\lstset{language=html}
+\usepackage{array}
+\usepackage{biblatex}
+\usepackage{tikz}
+\usepackage{smartdiagram}
+\addbibresource{rapport.bib}
+\usepackage{hyperref}
+\graphicspath{{~/templates/}, {../images/}}
+\usetheme{Hannover}
+
+\addtobeamertemplate{navigation symbols}{}{%
+	\usebeamerfont{footline}%
+	\usebeamercolor[fg]{footline}%
+	\hspace{1em}%
+	\insertframenumber/\inserttotalframenumber
+}
+
+
+\begin{document}
+	
+	\begin{frame}
+		\centering
+		\vspace{4em}
+		\textbf{Projet Ingénieur}\\
+		\vspace{2em}
+		\textbf{\LARGE Gestion automatique de Cookies}\\
+		\vspace{3em}
+		\vfill
+		\tiny Tuteurs :
+		
+		Jeremie Dequidt - Naif Mehanna - Walter Rudametkin
+		
+		\vspace{2em}
+		
+		\begin{tabular}{m{0.45\textwidth} p{0.45\textwidth}}
+			NEUS Maxence & \hspace{\fill}2022
+		\end{tabular}
+	\end{frame}
+
+	\begin{frame}
+		\tableofcontents
+	\end{frame}
+	
+	\section{Contexte}
+	
+	
+	\begin{frame}
+	
+	\end{frame}
+
+	
+\end{document}

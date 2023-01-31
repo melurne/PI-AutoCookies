@@ -1,0 +1,10 @@
+version: "3"
+services:
+  lutgenerator:
+    tty: true
+    container_name: trainer
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./results:/volume

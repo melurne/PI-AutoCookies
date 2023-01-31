@@ -1,0 +1,54 @@
+SelectionAndReportingOfAds	Marketing
+SelectionAndReportingOfAds	Advertising Cookies
+SelectionAndReportingOfAds	Select basic ads
+SelectionAndReportingOfAds	Create a personalised ads profile
+SelectionAndReportingOfAds	Select personalised ads
+SelectionAndReportingOfAds	Measure ad performance
+SelectionAndReportingOfAds	Targeting Cookies
+SelectionAndReportingOfAds	Personalisation of our website
+SelectionAndReportingOfAds	advertising with third parties
+SelectionAndReportingOfAds	Advertising cookies (personalised offers)
+SelectionAndReportingOfAds	Advertising
+SelectionAndReportingOfAds	Marketing & Targeting Cookies
+SelectionAndReportingOfAds	Enable Marketing Cookies
+SelectionAndReportingOfAds	ADVERTISEMENT
+SelectionAndReportingOfAds	Advertising Cookies
+SelectionAndReportingOfAds	Targeting
+SelectionAndReportingOfAds	Cookies that help with our communications and marketing
+SelectionAndReportingOfAds	personalised ads
+Others	Social Media Cookies
+Others	Visitor identification
+Others	Video-related cookies
+Others	Sharing cookies on social networks
+Others	Ensure security, prevent fraud, and debug
+Others	Data Sharing
+Others	OTHERS
+Others	Social Media
+Others	Youtube cookiesPreferencesAndFunctionnality.txt	Functionnal Cookies
+PreferencesAndFunctionnality.txt	Use mandatory services
+PreferencesAndFunctionnality.txt	Enable Functional Cookies
+PreferencesAndFunctionnality.txt	FUNCTIONAL
+PreferencesAndFunctionnality.txt	PREFERENCE COOKIES
+PreferencesAndFunctionnality.txt	PREFERENCE
+PreferencesAndFunctionnality.txt	Cookies that remember your settings
+StorageAndAccesToInformation.txt	Use precise geolocation data
+StorageAndAccesToInformation.txt	Actively scan device characteristics for identification
+StorageAndAccesToInformation.txt	Store and/or access information on a device
+StorageAndAccesToInformation.txt	Precise geolocation data, and identification through device scanning
+SelectionAndReportingOfContent	Select personalised content
+SelectionAndReportingOfContent	Measure content performance
+SelectionAndReportingOfContent	Create a personalised content profile
+PerformanceAndAnalytics	Statistics
+PerformanceAndAnalytics	Analytics Cookies
+PerformanceAndAnalytics	Apply market research to generate audience insights
+PerformanceAndAnalytics	Develop and improve products
+PerformanceAndAnalytics	Performance Cookies
+PerformanceAndAnalytics	Statistics and analysis
+PerformanceAndAnalytics	Cookies for audience measurement
+PerformanceAndAnalytics	Analytics
+PerformanceAndAnalytics	Analytical Cookies
+PerformanceAndAnalytics	Enable Analytics Cookies
+PerformanceAndAnalytics	PERFORMANCE
+PerformanceAndAnalytics	ANALYTICS
+PerformanceAndAnalytics	STATISTICS COOKIES
+PerformanceAndAnalytics	Cookies that measure website use

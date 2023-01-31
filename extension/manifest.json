@@ -1,0 +1,18 @@
+{
+	"name": "AutoCookies",
+	"description" : "",
+	"version": "0.1",
+	"manifest_version": 3,
+	"background": {
+		"service_worker": "background.js"
+	},
+	"content_scripts": [
+		{
+			"run_at": "document_start",
+			"matches": ["*://*/*"],
+			"js": ["content.js"]
+		}
+	],
+	"permissions": ["storage", "tabs", "scripting"],
+	"host_permissions": ["https://*/*", "http://*/*"]
+}

@@ -1,0 +1,4 @@
+Use precise geolocation data
+Actively scan device characteristics for identification
+Store and/or access information on a device
+Precise geolocation data, and identification through device scanning
