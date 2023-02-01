@@ -48,8 +48,17 @@
 	
 	
 	\include{cdcf.tex}
+	\section{\'Etat de l'art}
 	
-	\section{Planning prévisionnel}
+	\subsection{Consent-o-matic}
+	Cette extension évoquée précédement est issue d'un papier \cite{consentomatic} qui a pour but d'étudier les pratiques des sites concernant leurs utilisations de cookies.
+	Plus particuliairement ils étudient les effets des choix éffectuées avec la bannière de consentement sur l'inclusion ou non de cookies par la page, le but étant d'observer les manquements à la RGPD ("Règlement Général de la Protection des Données") tels que l'inclusion de cookies avant que l'utilisateur ai donné son consentement ou des mauvaises représentations des utilisations des cookies.
+	
+	Techniquement, l'application fonctionne sur la base de couples $(detecteur, methode)$ pour chaque CMP couverte.
+	L'extension lance alors l'ensemble des détecteurs de la liste sur la page, ces détecteurs prennent la forme de sélecteurs CSS et on peut distinguer la détection de la présence de la bannière et de son affichage sur la page.
+	
+	Ensuite si un détecteur est positif, alors l'extension lance la méthode associée. Ces méthodes prennent la forme d'un script JavaScript qui est exécuté sur la page.
+	\subsection{BERT}
 	
 	\section{Travail effectué}
 	\subsection{Structuration de l'application}

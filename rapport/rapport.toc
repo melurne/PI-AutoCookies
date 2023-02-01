@@ -1,20 +1,22 @@
 \contentsline {section}{\numberline {1}Cahier des charges}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Contexte}{2}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}But du projet}{2}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Planning prévisionnel}{3}{section.2}%
+\contentsline {section}{\numberline {2}\'Etat de l'art}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Consent-o-matic}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}BERT}{3}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Travail effectué}{3}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Structuration de l'application}{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Recherches préliminaires}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Recherches préliminaires}{4}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Collecte de données}{5}{subsection.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.1}Détection de bannières}{5}{subsubsection.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.2}Collecte des libellés de catégories}{6}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4}Modélisation}{6}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Préprocessing}{6}{subsubsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4}Modélisation}{7}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Préprocessing}{7}{subsubsection.3.4.1}%
 \contentsline {subsubsection}{\numberline {3.4.2}Entraînement du modèle}{7}{subsubsection.3.4.2}%
 \contentsline {subsubsection}{\numberline {3.4.3}Augmentation du dataset}{7}{subsubsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.5}Extension}{8}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Suites du projet}{9}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Intéractions avec la bannière}{10}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Classifieur}{10}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Intégration dans l'extension}{11}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Si c'était à refaire}{11}{section.5}%
+\contentsline {subsection}{\numberline {3.5}Extension}{9}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Suites du projet}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Intéractions avec la bannière}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Classifieur}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Intégration dans l'extension}{12}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Si c'était à refaire}{12}{section.5}%
