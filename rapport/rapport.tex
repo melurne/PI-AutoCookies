@@ -78,6 +78,7 @@
 		\centering
 		\label{categories}
 		\begin{itemize}
+			\centering
 			\item Performance And Analytics
 			\item Preference And Functionnality
 			\item Selection And Reporting of Ads
@@ -139,7 +140,7 @@
 	
 	\subsubsection{Préprocessing}
 	\label{preprocessing}
-	Pour pouvoir entraîner un modèle, il nous faut encoder nos données (texte) de manière numérique. Pour cela l'état de l'art utilise l'algorythme BERT pour génerer des embedings. C'est à dire une représentation numérique du sens lié à un morceau de texte. Cet algorythme est utilisé par suffisament d'organismes qu'il existe des modèles préentraînés de celui-ci qui nous permettent de l'intégrer rapidement à nos projets. Dans notre cas on utilise un modèle de Microsoft (\href{https://github.com/microsoft/CodeBERT}{page git du modèle})
+	Pour pouvoir entraîner un modèle, il nous faut encoder nos données (texte) de manière numérique. Pour cela l'état de l'art utilise l'algorithme BERT pour génerer des embedings. C'est à dire une représentation numérique du sens lié à un morceau de texte. Cet algorithme est utilisé par suffisament d'organismes qu'il existe des modèles préentraînés de celui-ci qui nous permettent de l'intégrer rapidement à nos projets. Dans notre cas on utilise un modèle de Microsoft (\href{https://github.com/microsoft/CodeBERT}{page git du modèle})
 	
 	Notre entraînement commence donc par le préprocessing de nos données en utilisant le modèle présentés. On peut donc enregistrer les représentations obtenues pour qu'elles servent d'entrée à notre modèle.
 	
@@ -149,7 +150,11 @@
 	Le premier que l'on va étudier ici est le RandomForest qui représente une liste d'arbres de décision qui votent sur la classification à donner à l'entrée.
 	
 	En utilisant les bibliothèques d'sklearn sous python, on parvient à entraîner un tel modèle avec notre dataset.
-	On obtient un modèle avec une précision de 0.57 ce qui implique que le modèle est correcte seulement 57\% du temps.
+	On obtient un modèle avec une précision de 0.57 ce qui indique que le modèle est correcte seulement 57\% du temps.
+	Le calcule de la précision se fait dans le cas général de la manière suivante :
+	$$ precision = \frac{T_p}{T_p + F_p} $$
+	avec: $T_p$ le nombre de vrai positifs, et $F_p$ le nombre de faux positifs.
+	La précision mesure la capacité du modèle à ne pas mal classifier un échantillon.
 	
 	\subsubsection{Augmentation du dataset}
 	\label{trainingFinal}
@@ -157,7 +162,7 @@
 	
 	Pour cela on utilise un processus décrit par \cite{wei-zou-2019-eda} qui consiste à créer des variations sur le texte de départ en changeant des mots par des synonymes ou en les changeant de place dans la phrase.
 	
-	Le papier \cite{wei-zou-2019-eda} donne un script python qui permet d'appliquer leur algorythme à un dataset de texte quelconque. On utilise donc ce script pour augmenter le nombre de points de donnée utilisés par le modèle.
+	Le papier \cite{wei-zou-2019-eda} donne un script python qui permet d'appliquer leur algorithme à un dataset de texte quelconque. On utilise donc ce script pour augmenter le nombre de points de donnée utilisés par le modèle.
 	
 	On peut alors relancer un entraînement du modèle avec le nouveau dataset augmenté pour obtenir les métrics suivants :
 	
@@ -181,6 +186,12 @@
 		\centering
 		\include{tablo.tex}
 		\caption{Metrics pour 4 types de modèles}
+	\end{figure}
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=8cm]{algo.png}
+		\caption{Résumé de l'algorithme de classification}
 	\end{figure}
 	
 	\subsection{Extension}

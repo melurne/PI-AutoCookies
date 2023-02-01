@@ -14,7 +14,7 @@
 \contentsline {subsubsection}{\numberline {3.4.3}Augmentation du dataset}{7}{subsubsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.5}Extension}{8}{subsection.3.5}%
 \contentsline {section}{\numberline {4}Suites du projet}{9}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Intéractions avec la bannière}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Intéractions avec la bannière}{10}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Classifieur}{10}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Intégration dans l'extension}{10}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}Intégration dans l'extension}{11}{subsection.4.3}%
 \contentsline {section}{\numberline {5}Si c'était à refaire}{11}{section.5}%
